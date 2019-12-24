@@ -1,0 +1,6 @@
+Hola Soy Un Archivo o Fichero .txt Abierto desde PHP.
+Con Sus Respectivas Funciones y son las siguientes =>
+fopen(); para abrir el Archivo.
+!feof(); para recorrer y mostrar todas las lineas existentes en el archivo o fichero .txt
+fgets(); para obtener el contenido interno del archivo Abierto.
+fclose(); para cerrar el archivo anteriormente Abierto.

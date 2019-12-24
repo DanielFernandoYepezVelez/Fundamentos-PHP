@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Fernando Yepez Vélez">
+    <meta name="description" content="Aprendiendo La Validación De Formularios Desde El Navegador">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <label for="name">Input(text):</label> <br>
+        <input type="text" name="name" placeholder="Nombres:" id="#" maxlength="15" minlength="5" autofocus pattern="[a-zA-Z ]+" required>
+        <hr><br><br>
+
+        <label for="lastName">Input(text):</label> <br>
+        <input type="text" name="lastName" placeholder="Apellidos:" id="#" maxlength="15" minlength="5" autofocus pattern="[a-zA-Z ]+" required>
+        <hr><br><br>
+
+        <label for="email">Input(email):</label> <br>
+        <input type="email" name="email" placeholder="Correo Eléctronico:" id="#" maxlength="20" minlength="5" autofocus required>
+        <hr><br><br>
+
+        <label for="buttonName">Input(button):</label> <br>
+        <input type="button" name="buttonName" id="#" value="Presioname Haciendo Click!">
+        <hr><br><br>
+
+        <label for="genre">Input(checkbox):</label> <br>
+        <div>Hombre:<input type="checkbox" name="genre" id="#" value="man" checked></div>
+        <div>Mujer:<input type="checkbox" name="genre" id="#" value="woman"></div>
+        <hr><br>
+
+        <label for="color">Input(color):</label> <br>
+        <input type="color" name="color" id="#">
+        <hr><br><br>
+
+        <!-- Se utilizan principalmente librerias porque
+        las fechas de HTML5 no es compatible en TODOS los
+        navegadores y las librerias si!!! -->
+        <label for="date">Input(date):</label> <br>
+        <input type="date" name="date" id="#">
+        <hr><br><br>
+
+        <label for="file">Input(file):</label> <br>
+        <input type="file" name="file" id="#" multiple>
+        <hr><br><br>
+
+        <label for="hiddenName">Input(hidden):</label> <br>
+        <input type="hidden" name="hiddenName">
+        <hr><br>
+
+        <label for="numberName">Input(number):</label> <br>
+        <input type="number" name="numberName" id="#">
+        <hr><br><br>
+
+        <label for="passwordName">Input(password):</label> <br>
+        <input type="password" name="passwordName" id="#">
+        <hr><br><br>
+
+        <label for="radioName">Input(radio):</label> <br>
+        <div>América:<input type="radio" name="radioName" id="#" value="America"></div>
+        <div>Europa:<input type="radio" name="radioName" id="#" value="Europa"></div>
+        <div>Asia:<input type="radio" name="radioName" id="#" value="Asia"></div>
+        <hr><br>
+
+        <label for="urlName">Input(url):</label> <br>
+        <input type="url" name="urlName" id="#">
+        <hr><br><br>
+
+        <label for="textArea">Etiqueta(textarea):</label> <br>
+        <textarea name="textArea" id="#" cols="30" rows="10"></textarea>
+        <hr><br><br>
+
+        <label for="selectName">Etiqueta(select):</label> <br>
+        <select name="selectName" id="#">
+          <optgroup>
+            <option value="option1">Option #1</option>
+            <option value="option2">Option #2</option>
+            <option value="option3">Option #3</option>
+          </optgroup>
+        </select>
+        <hr><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
