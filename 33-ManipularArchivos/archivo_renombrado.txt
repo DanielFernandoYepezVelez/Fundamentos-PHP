@@ -4,3 +4,4 @@ fopen(); para abrir el Archivo.
 !feof(); para recorrer y mostrar todas las lineas existentes en el archivo o fichero .txt
 fgets(); para obtener el contenido interno del archivo Abierto.
 fclose(); para cerrar el archivo anteriormente Abierto.
+Soy la función que agrega nuevo contenido desde PHP en el archivo .txt
